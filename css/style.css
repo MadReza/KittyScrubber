@@ -1,0 +1,72 @@
+nav img{
+	float: left;
+	width: 50px;
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+}
+
+nav ul{
+	float: right;
+	padding-top: 0.5%:;
+	padding-right: 0.5%;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 25px;
+}
+
+#banner{
+	border: 1px solid black;
+	min-height: 375px;
+    background-color: bisque;
+}
+
+.sub_nav{
+	border: 1px solid black;
+}
+
+.sub_nav ul{
+	padding: 0px;
+}
+
+.sub_nav ul li{
+	display: inline-block;
+	width: 14.10%;
+	text-align: center;
+}
+
+/* Browse */
+.genre{
+	clear: both;
+}
+
+.genre_header{
+	float: left;
+	width: 15%;
+	height: 311px;
+	background-color: #00bcd4;
+	border: 1px solid black;
+	clear: left;
+	text-align: center;
+}
+
+.genre_header h3{
+	padding-top: 42%;
+	text-transform: uppercase;
+}
+
+.genre_titles{
+	float: left;
+}
+
+.genre_titles ul{
+	padding-left: 0px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.genre_titles ul li{
+	display: inline-block;
+}
+
