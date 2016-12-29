@@ -1,0 +1,17 @@
+.current_page_content{
+	width: 1022.5px;
+	height: 1443px;
+}
+
+.button {
+	padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #5689db;
+    border: 1px solid #5689db;
+    border-radius: 3px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 13px;
+    padding: 7px 28px;
+    text-decoration: none;
