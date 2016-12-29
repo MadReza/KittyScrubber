@@ -45,25 +45,25 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			
-			
+			<div class="col-xs-12">
+				<div class="col-xs-10 text-right">
+					<button type="button" class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-left"></i></button>
+				</div>
+				<div class="col-xs-2">
+					<button type="button" class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-chevron-right"></i></button>
+				</div>
+			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-1">
-				<button>Backwards</button>
-			</div>
-			<div class="col-xs-10">
+			<div class="col-xs-12 text-center">
 				<img src="img/poster_2.jpg" class="current_page_content">
 			</div>
-			<div class="col-xs-1">
-				<button>Forwards</button>
-			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12">
-				<button>Report</button>
-				<button>Bookmark</button>
-				<button>Subscribe</button>
+			<div class="col-xs-12 text-center">
+				<button class="resource_button">Report</button>
+				<button class="resource_button">Bookmark</button>
+				<button class="resource_button">Subscribe</button>
 			</div>
 		</div>
 	</div>
