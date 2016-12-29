@@ -6,13 +6,13 @@
 
         <div data-u="slides" class="img_slider">
             <div data-p="112.50">
-                <img data-u="image" src="img/fairytail_cover.jpg" />
+                <img data-u="image" src="img/wide.jpg" />
             </div>
             <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/fairytail_cover.jpg" />
+                <img data-u="image" src="img/wide2.jpg" />
             </div>
             <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="img/fairytail_cover.jpg" />
+                <img data-u="image" src="img/wide3.jpg" />
             </div>
         </div>
     </div>
