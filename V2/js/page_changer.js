@@ -1,11 +1,10 @@
-page_id = 1; //Use PHP GET to grab the current page fromt he URL and put it into a variable for page_id to use
-
-function leftArrowPressed() {
-    document.location = 'jratx.ga/scrubby/page' + page_id - 1;
+/*function leftArrowPressed() {
+    document.location = window.location.href;
+    page = ((page + pageCount + 1) % pageCount) + 1;
 }
 
 function rightArrowPressed() {
-    document.location = 'jratx.ga/scrubby/page' + page_id + 1;
+    document.location = window.location.href;
 }
 
 document.onkeydown = function(evt) {
@@ -19,3 +18,26 @@ document.onkeydown = function(evt) {
             break;
     }
 };
+*/
+(function() {
+    "use strict";
+
+    var page = 1;
+    var pageCount = 3;
+
+    display("Starting page: " + page);
+    document.getElementById("btnPrev").onclick = function() {
+      page = ((page + pageCount + 1) % pageCount) + 1;
+      display("previous, page now " + page);
+    };
+    document.getElementById("btnNext").onclick = function() {
+      page = (page % pageCount) + 1;
+      display("next, page now " + page);
+    };
+
+    function display(msg) {
+      var p = document.createElement('p');
+      p.innerHTML = String(msg);
+      document.body.appendChild(p);
+    }
+  })();
